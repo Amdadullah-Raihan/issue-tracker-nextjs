@@ -1,0 +1,111 @@
+{
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "files.autoSave": "onFocusChange",
+  "vs-code-prettier-eslint.prettierLast": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "todo-tree.general.showActivityBarBadge": true,
+  "todo-tree.general.tags": [
+    "NOTE",
+    "TODO",
+    "FIX",
+    "MARK",
+    "BUG",
+    "DOC",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+  "todo-tree.general.statusBar": "tags",
+  "todo-tree.highlights.defaultHighlight": {
+    "type": "tag",
+    "fontWeight": "bold",
+    "foreground": "#d8d8d8",
+    "opacity": 90
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "checkbox",
+      "type": "line",
+      "background": "#65B741",
+      "iconColour": "#65B741",
+      "gutterIcon": true,
+      "opacity": 0.5
+    },
+    "FIX": {
+      "icon": "alert",
+      "type": "line",
+      "background": "#ffbb00",
+      "iconColour": "#ffbb00",
+      "gutterIcon": true,
+      "opacity": 0.3
+    },
+    "DOC": {
+      "icon": "book",
+      "type": "line",
+      "background": "#c8f1ff",
+      "iconColour": "#c8f1ff",
+      "gutterIcon": true,
+      "opacity": 0.3
+    },
+    "NOTE": {
+      "icon": "note",
+      "type": "line",
+      "background": "#00BFFF",
+      "iconColour": "#00BFFF",
+      "gutterIcon": true,
+      "opacity": 0.3
+    },
+    "MARK": {
+      "background": "#157EFB",
+      "iconColour": "#157EFB",
+      "gutterIcon": true,
+      "opacity": 0.3,
+      "type": "line",
+      "icon": "tag"
+    },
+    "BUG": {
+      "icon": "bug",
+      "type": "line",
+      "background": "#FE0000",
+      "iconColour": "#FE0000",
+      "gutterIcon": true,
+      "opacity": 0.3
+    },
+    "[ ]": {
+      "icon": "issue-draft"
+    },
+    "[x]": {
+      "icon": "issue-closed"
+    }
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#484848",
+    "activityBar.background": "#484848",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#081808",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#484848",
+    "statusBar.background": "#2f2f2f",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#484848",
+    "statusBarItem.remoteBackground": "#2f2f2f",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#2f2f2f",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#2f2f2f99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#2F2F2F"
+}
